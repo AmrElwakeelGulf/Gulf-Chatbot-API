@@ -1,0 +1,83 @@
+2025-09-24T15:38:41.9217417+03:00  [INF] Now listening on: "https://localhost:7161" (d826f4b8)
+2025-09-24T15:38:41.9244064+03:00  [INF] Now listening on: "http://localhost:5189" (d826f4b8)
+2025-09-24T15:38:42.0151959+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-09-24T15:38:42.0155048+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-09-24T15:38:42.0156679+03:00  [INF] Content root path: "C:\Users\aelwakeel\source\repos\Gulf-Chatbot-API\Gulf-Chatbot-API" (cc26f24e)
+2025-09-24T15:38:42.7164349+03:00 0HNFRCT5KHPRC:00000001 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/index.html""" - null null (d509f86a)
+2025-09-24T15:38:42.9713863+03:00 0HNFRCT5KHPRC:00000001 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 259.2914ms (74253ad3)
+2025-09-24T15:38:43.0690019+03:00 0HNFRCT5KHPRC:00000005 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - null null (d509f86a)
+2025-09-24T15:38:43.0690017+03:00 0HNFRCT5KHPRC:00000003 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-09-24T15:38:43.0752277+03:00 0HNFRCT5KHPRC:00000003 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - 200 16517 "application/javascript; charset=utf-8" 6.7353ms (74253ad3)
+2025-09-24T15:38:43.1252308+03:00 0HNFRCT5KHPRC:00000005 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 56.5892ms (74253ad3)
+2025-09-24T15:38:43.2612635+03:00 0HNFRCT5KHPRC:00000007 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2025-09-24T15:38:43.2797275+03:00 0HNFRCT5KHPRC:00000007 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 18.8154ms (74253ad3)
+2025-09-24T15:39:29.0026430+03:00  [INF] Now listening on: "https://localhost:7161" (d826f4b8)
+2025-09-24T15:39:29.0047438+03:00  [INF] Now listening on: "http://localhost:5189" (d826f4b8)
+2025-09-24T15:39:29.0563226+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-09-24T15:39:29.0564896+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-09-24T15:39:29.0565035+03:00  [INF] Content root path: "C:\Users\aelwakeel\source\repos\Gulf-Chatbot-API\Gulf-Chatbot-API" (cc26f24e)
+2025-09-24T15:39:29.6798702+03:00 0HNFRCTJOHLEJ:00000001 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/index.html""" - null null (d509f86a)
+2025-09-24T15:39:29.8531042+03:00 0HNFRCTJOHLEJ:00000001 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 179.3397ms (74253ad3)
+2025-09-24T15:39:29.9123138+03:00 0HNFRCTJOHLEJ:00000003 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-09-24T15:39:29.9128662+03:00 0HNFRCTJOHLEJ:00000005 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - null null (d509f86a)
+2025-09-24T15:39:29.9236741+03:00 0HNFRCTJOHLEJ:00000003 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - 200 16517 "application/javascript; charset=utf-8" 11.3904ms (74253ad3)
+2025-09-24T15:39:29.9553525+03:00 0HNFRCTJOHLEJ:00000005 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 42.4668ms (74253ad3)
+2025-09-24T15:39:29.9989222+03:00 0HNFRCTJOHLEJ:00000007 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2025-09-24T15:39:30.0138428+03:00 0HNFRCTJOHLEJ:00000007 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 15.2582ms (74253ad3)
+2025-09-24T15:39:42.7657042+03:00 0HNFRCTJOHLEJ:00000009 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/api/Chatbot/ValidateIDIqamaNumber/4235325""" - null null (d509f86a)
+2025-09-24T15:39:42.7835895+03:00 0HNFRCTJOHLEJ:00000009 [INF] Incoming Request:
+Method: GET
+Path: /api/Chatbot/ValidateIDIqamaNumber/4235325
+Query: 
+Headers:
+Accept: */*
+Host: localhost:7161
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ar-SA
+Referer: https://localhost:7161/swagger/index.html
+sec-ch-ua-platform: "Windows"
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Microsoft Edge";v="140"
+sec-ch-ua-mobile: ?0
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+priority: u=1, i
+ (73e7dfcf)
+2025-09-24T15:39:45.5313458+03:00 0HNFRCTJOHLEJ:00000009 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/api/Chatbot/ValidateIDIqamaNumber/4235325""" - 401 null null 2766.2783ms (74253ad3)
+2025-09-24T15:44:48.5286352+03:00  [INF] Now listening on: "https://localhost:7161" (d826f4b8)
+2025-09-24T15:44:48.5299597+03:00  [INF] Now listening on: "http://localhost:5189" (d826f4b8)
+2025-09-24T15:44:48.5797278+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-09-24T15:44:48.5799560+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-09-24T15:44:48.5799937+03:00  [INF] Content root path: "C:\Users\aelwakeel\source\repos\Gulf-Chatbot-API\Gulf-Chatbot-API" (cc26f24e)
+2025-09-24T15:44:49.1122832+03:00 0HNFRD0IS5QHN:00000001 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/index.html""" - null null (d509f86a)
+2025-09-24T15:44:49.2630970+03:00 0HNFRD0IS5QHN:00000001 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 155.0164ms (74253ad3)
+2025-09-24T15:44:49.3393222+03:00 0HNFRD0IS5QHN:00000003 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-09-24T15:44:49.3393224+03:00 0HNFRD0IS5QHN:00000005 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - null null (d509f86a)
+2025-09-24T15:44:49.3641686+03:00 0HNFRD0IS5QHN:00000003 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - 200 16517 "application/javascript; charset=utf-8" 25.2279ms (74253ad3)
+2025-09-24T15:44:49.3901561+03:00 0HNFRD0IS5QHN:00000005 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 51.0728ms (74253ad3)
+2025-09-24T15:44:49.4287158+03:00 0HNFRD0IS5QHN:00000007 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2025-09-24T15:44:49.4379313+03:00 0HNFRD0IS5QHN:00000007 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 9.5837ms (74253ad3)
+2025-09-24T15:44:58.8397154+03:00 0HNFRD0IS5QHN:00000009 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/api/Chatbot/ValidateIDIqamaNumber/23653474537""" - null null (d509f86a)
+2025-09-24T15:44:58.8788343+03:00 0HNFRD0IS5QHN:00000009 [INF] -----------------------------2‏‏/4‏‏/1447 بعد الهجرة 3:44:58 م----------------------------------
+Incoming Request:
+Method: GET
+Path: /api/Chatbot/ValidateIDIqamaNumber/23653474537
+Query: 
+Headers:
+Accept: */*
+Host: localhost:7161
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ar-SA
+Referer: https://localhost:7161/swagger/index.html
+sec-ch-ua-platform: "Windows"
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Microsoft Edge";v="140"
+sec-ch-ua-mobile: ?0
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+priority: u=1, i
+---------------------------------------------------------------------------------------------
+ (7b9b933a)
+2025-09-24T15:45:00.9989830+03:00 0HNFRD0IS5QHN:00000009 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/api/Chatbot/ValidateIDIqamaNumber/23653474537""" - 401 null null 2159.7694ms (74253ad3)

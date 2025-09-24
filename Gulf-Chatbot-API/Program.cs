@@ -1,5 +1,6 @@
 using Gulf_Chatbot_API.Filters;
 using Gulf_Chatbot_API.Middleware;
+using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,6 +39,11 @@ builder.Services.AddSwaggerGen(c =>
     c.OperationFilter<AcceptLanguageHeaderFilter>();
 });
 
+// Add logging to file
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddFile("Logs/api-log-{Date}.txt"); 
+
 var app = builder.Build();
 
 //if (app.Environment.IsDevelopment())
@@ -55,7 +61,9 @@ var localizationOptions = new RequestLocalizationOptions()
 
 app.UseRequestLocalization(localizationOptions);
 
+app.UseMiddleware<RequestLoggingMiddleware>();
 app.UseMiddleware<ApiKeyMiddleware>();
+
 
 app.MapControllers();
 app.Run();
