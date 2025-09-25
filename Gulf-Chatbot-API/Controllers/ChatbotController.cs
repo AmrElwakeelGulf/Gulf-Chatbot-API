@@ -48,15 +48,18 @@ namespace Gulf_Chatbot_API.Controllers
         {
             var culture = Thread.CurrentThread.CurrentCulture.Name;
 
-            //if (culture == "ar-SA")
-            //    return Ok("مرحباً بك 👋");
-
-            //return Ok("Hello 👋");
-
             if (policyNumber == 0)
                 return BadRequest(new ChatbotResponse { Message = "Invalid Policy Number" });
 
-            return Ok(new ChatbotResponse { Valid = true });
+            string ResponseMessage= string.Empty;
+            string PaymentUrl = "http://chatbotdev.gulfunion.com.sa:8068";
+            if (culture == "ar-SA")
+                ResponseMessage = $"تفاصيل الوثيقة : {policyNumber}\n رابط الدفع : {PaymentUrl}";
+            else
+                ResponseMessage = $"Policy Details : {policyNumber}\n Payment Link : {PaymentUrl}";
+
+
+            return Ok(new ChatbotResponse { Valid = true ,Message = ResponseMessage});
 
         }
 
