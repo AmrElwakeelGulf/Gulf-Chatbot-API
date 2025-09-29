@@ -1,0 +1,61 @@
+2025-09-29T12:51:50.7064264+03:00  [INF] Now listening on: "https://localhost:7161" (d826f4b8)
+2025-09-29T12:51:50.7081677+03:00  [INF] Now listening on: "http://localhost:5189" (d826f4b8)
+2025-09-29T12:51:50.7593570+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-09-29T12:51:50.7596581+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-09-29T12:51:50.7596900+03:00  [INF] Content root path: "C:\Users\aelwakeel\source\repos\Gulf-Chatbot-API\Gulf-Chatbot-API" (cc26f24e)
+2025-09-29T12:51:51.5680333+03:00 0HNFV7N85F25O:00000001 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/index.html""" - null null (d509f86a)
+2025-09-29T12:51:51.7925523+03:00 0HNFV7N85F25O:00000001 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 234.9605ms (74253ad3)
+2025-09-29T12:51:51.8519758+03:00 0HNFV7N85F25O:00000003 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-09-29T12:51:51.8565870+03:00 0HNFV7N85F25O:00000003 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - 200 16517 "application/javascript; charset=utf-8" 4.7282ms (74253ad3)
+2025-09-29T12:51:51.9677175+03:00 0HNFV7N85F25P:00000001 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - null null (d509f86a)
+2025-09-29T12:51:52.0252775+03:00 0HNFV7N85F25P:00000001 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 57.619ms (74253ad3)
+2025-09-29T12:51:52.1753934+03:00 0HNFV7N85F25P:00000003 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2025-09-29T12:51:52.1964254+03:00 0HNFV7N85F25P:00000003 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 21.4162ms (74253ad3)
+2025-09-29T12:52:00.1104919+03:00 0HNFV7N85F25Q:00000001 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/index.html""" - null null (d509f86a)
+2025-09-29T12:52:00.1309174+03:00 0HNFV7N85F25Q:00000001 [INF] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\aelwakeel\source\repos\Gulf-Chatbot-API\Gulf-Chatbot-API\wwwroot\index.html"' (27b0a520)
+2025-09-29T12:52:00.1311532+03:00 0HNFV7N85F25Q:00000001 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/index.html""" - 200 null "text/html" 21.0468ms (74253ad3)
+2025-09-29T12:52:00.1850635+03:00 0HNFV7N85F25Q:00000003 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - null null (d509f86a)
+2025-09-29T12:52:00.1886559+03:00 0HNFV7N85F25Q:00000005 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-09-29T12:52:00.1903793+03:00 0HNFV7N85F25Q:00000005 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_framework/aspnetcore-browser-refresh.js""" - 200 16517 "application/javascript; charset=utf-8" 1.8823ms (74253ad3)
+2025-09-29T12:52:00.1993015+03:00 0HNFV7N85F25Q:00000003 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 14.4188ms (74253ad3)
+2025-09-29T12:52:00.7838766+03:00 0HNFV7N85F25Q:00000007 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/favicon.ico""" - null null (d509f86a)
+2025-09-29T12:52:00.8014879+03:00 0HNFV7N85F25Q:00000007 [INF] -----------------------------9/29/2025 12:52:00 PM----------------------------------
+Incoming Request:
+Method: GET
+Path: /favicon.ico
+Query: 
+Headers:
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:7161
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: https://localhost:7161/index.html
+sec-ch-ua-platform: "Windows"
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Microsoft Edge";v="140"
+sec-ch-ua-mobile: ?0
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+priority: u=1, i
+---------------------------------------------------------------------------------------------
+ (7dc1b1c1)
+2025-09-29T12:52:04.1891575+03:00 0HNFV7N85F25Q:00000007 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/favicon.ico""" - 401 null null 3405.6946ms (74253ad3)
+2025-09-29T12:52:10.4979389+03:00 0HNFV7N85F25Q:00000009 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7161""""/.well-known/appspecific/com.chrome.devtools.json""" - null null (d509f86a)
+2025-09-29T12:52:10.5014639+03:00 0HNFV7N85F25Q:00000009 [INF] -----------------------------9/29/2025 12:52:10 PM----------------------------------
+Incoming Request:
+Method: GET
+Path: /.well-known/appspecific/com.chrome.devtools.json
+Query: 
+Headers:
+Host: localhost:7161
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+sec-fetch-dest: empty
+priority: u=4, i
+---------------------------------------------------------------------------------------------
+ (bf78946c)
+2025-09-29T12:52:18.3412883+03:00 0HNFV7N85F25Q:00000009 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7161""""/.well-known/appspecific/com.chrome.devtools.json""" - 401 null null 7844.8322ms (74253ad3)

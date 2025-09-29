@@ -1,6 +1,5 @@
 using Gulf_Chatbot_API.Filters;
 using Gulf_Chatbot_API.Middleware;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -42,15 +41,15 @@ builder.Services.AddSwaggerGen(c =>
 // Add logging to file
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
-builder.Logging.AddFile("Logs/api-log-{Date}.txt"); 
+builder.Logging.AddFile("Logs/api-log-{Date}.txt");
 
 var app = builder.Build();
 
-//if (app.Environment.IsDevelopment())
-//{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-//}
+app.UseDefaultFiles(); 
+app.UseStaticFiles();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 var supportedCultures = new[] { "en-US", "ar-SA" };
 
